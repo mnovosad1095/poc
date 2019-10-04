@@ -8,9 +8,10 @@ OBJ_DIR = obj
 CXXFLAGS = -O3
 LDLAGS = -O3
 
-all: $(BIN_DIR)/$(LIB_NAME) $(BIN_DIR)/$(SLIB_NAME)
+all: $(BIN_DIR)/$(LIB_NAME) $(BIN_DIR)/$(SLIB_NAME) make_directories
 
 $(BIN_DIR)/$(SLIB_NAME): $(OBJS)
+
 	$(CXX) $(LDLAGS) -shared -Wl,-soname,libcs.so -o $@ $^
 
 $(BIN_DIR)/$(LIB_NAME): $(OBJS)
@@ -19,6 +20,10 @@ $(BIN_DIR)/$(LIB_NAME): $(OBJS)
 $(OBJ_DIR)/%.o: %.c
 	$(CXX) -c $(CXXFLAGS) $< -fPIC -o $@
 
+make_directories:
+	mkdir -p $(OBJ_DIR)
+	mkdir -p $(BIN_DIR)
+
 .PHONY : clean
 clean:
-	rm -rf *.o *.gch libcs
+	rm -rf obj bin

@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/bzip2.dir/bzip2.c.o  -o bzip2  -L/home/bob/POC/lab1.3/examples../library/bin -Wl,-rpath,/home/bob/POC/lab1.3/examples../library/bin -lbzlib 

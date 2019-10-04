@@ -1,4 +1,0 @@
-/home/bob/POC/lab1.3/library/build/CMakeFiles/rebuild_cache.dir
-/home/bob/POC/lab1.3/library/build/CMakeFiles/edit_cache.dir
-/home/bob/POC/lab1.3/library/build/CMakeFiles/bzlib.dir
-/home/bob/POC/lab1.3/library/build/CMakeFiles/bzlib-shared.dir

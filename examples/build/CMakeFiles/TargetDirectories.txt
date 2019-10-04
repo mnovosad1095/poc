@@ -1,3 +1,0 @@
-/home/bob/POC/lab1.3/examples/build/CMakeFiles/rebuild_cache.dir
-/home/bob/POC/lab1.3/examples/build/CMakeFiles/bzip2.dir
-/home/bob/POC/lab1.3/examples/build/CMakeFiles/edit_cache.dir

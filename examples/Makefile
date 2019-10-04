@@ -18,4 +18,4 @@ obj/%.o: %.c
 
 .PHONY: clean
 clean:
-	rm -rf obj/*.o
+	rm -rf obj bin
