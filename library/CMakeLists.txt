@@ -1,9 +1,8 @@
 CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
-
 PROJECT(bzlib C)
 
 SET(bzlib_FILES  bzlib.c compress.c crctable.c blocksort.c
-        decompress.c huffman.c main.c
+        decompress.c huffman.c
         randtable.c bzlib.h bzlib_private.h )
 
 set(LIBRARY_OUTPUT_PATH ../bin)
